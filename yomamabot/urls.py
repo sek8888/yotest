@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^fb/', include('fb_yomamabot.urls')),
+    url(r'^$', fb_yomamabot.views.index, name='index'),
 ]
