@@ -26,7 +26,7 @@ SECRET_KEY = 'ob7an&1xht6i_8=$#m=jgoo9mak_9qnp0(y--uu$kyufv*#e58'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['yomamabo.herokuapp.com']
 
 
 # Application definition
